@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Ultra Secret Link dont click on it](https://www.linkedin.com/in/luis-enrique-farias-sanchez-623210185/).
+[Ultra Secret Link dont click on it](./NotAvirusyet.html).
 
 # Hello Panda!
 
