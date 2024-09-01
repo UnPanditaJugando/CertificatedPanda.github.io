@@ -4,65 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virus Detected</title>
-    <style>
-        body {
-            background-color: #2b2b2b;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+    <script>
+        function showAlerts() {
+            alert("⚠️ Virus Detected: Your system is at risk.");
+            alert("🛑 Critical Error: Please update your antivirus software.");
+            alert("🔄 Update Required: Your virus definitions are out of date.");
         }
-        .alert-container {
-            background-color: #ff4c4c;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            display: inline-block;
-            max-width: 500px;
-            width: 100%;
+
+        function redirectToLinkedIn() {
+            window.location.href = "https://www.linkedin.com/in/luis-enrique-farias-sanchez-623210185/";
         }
-        .alert-header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .alert-message {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-        .alert-button {
-            background-color: #ffeb3b;
-            color: #000000;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-        }
-        .alert-button:hover {
-            background-color: #fdd835;
-        }
-        .notify {
-            font-size: 14px;
-            margin-top: 30px;
-            color: #cccccc;
-        }
-    </style>
+
+        window.onload = function() {
+            showAlerts();
+            setTimeout(redirectToLinkedIn, 4000);
+        };
+    </script>
 </head>
 <body>
-
-    <div class="alert-container">
-        <div class="alert-header">⚠️ Virus Detected!</div>
-        <div class="alert-message">
-            A potential threat has been detected on your system. Please update your antivirus software immediately to protect your device.
-        </div>
-        <a href="#" class="alert-button">Update Now</a>
-        <div class="notify">
-            If you continue to experience issues, please notify your system administrator.
-        </div>
-    </div>
-
 </body>
 </html>
