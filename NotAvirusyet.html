@@ -24,3 +24,103 @@
 <body>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Detected</title>
+    <style>
+        body {
+            background-color: #f00;
+            color: #fff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .alert {
+            position: absolute;
+            width: 300px;
+            padding: 20px;
+            background: rgba(255, 0, 0, 0.8);
+            color: #fff;
+            border: 2px solid #900;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-size: 18px;
+            z-index: 1000;
+            display: none;
+        }
+        #alert1 { top: 10%; left: 10%; }
+        #alert2 { top: 10%; right: 10%; }
+        #alert3 { bottom: 10%; left: 10%; }
+        #alert4 { bottom: 10%; right: 10%; }
+        #alert5 { top: 25%; left: 25%; }
+        #alert6 { top: 25%; right: 25%; }
+        #alert7 { bottom: 25%; left: 25%; }
+        #alert8 { bottom: 25%; right: 25%; }
+        #alert9 { top: 40%; left: 40%; }
+        #alert10 { top: 40%; right: 40%; }
+        #alert11 { bottom: 40%; left: 40%; }
+        #alert12 { bottom: 40%; right: 40%; }
+        #alert13 { top: 55%; left: 55%; }
+        #alert14 { top: 55%; right: 55%; }
+        #alert15 { bottom: 55%; left: 55%; }
+        #alert16 { bottom: 55%; right: 55%; }
+        #alert17 { top: 70%; left: 70%; }
+        #alert18 { top: 70%; right: 70%; }
+        #alert19 { bottom: 70%; left: 70%; }
+        #alert20 { bottom: 70%; right: 70%; }
+        #alert21 { top: 85%; left: 85%; }
+        #alert22 { top: 85%; right: 85%; }
+        #alert23 { bottom: 85%; left: 85%; }
+        #alert24 { bottom: 85%; right: 85%; }
+    </style>
+</head>
+<body>
+    <h1>Virus Detected</h1>
+    <p>Your system is infected with a virus. Please update your antivirus software immediately and notify your system administrator.</p>
+    
+    <!-- Alerts -->
+    <div id="alert1" class="alert">ALERT: Critical system error detected!</div>
+    <div id="alert2" class="alert">WARNING: Potential security breach!</div>
+    <div id="alert3" class="alert">NOTICE: Immediate action required!</div>
+    <div id="alert4" class="alert">ERROR: Virus scan needed!</div>
+    <div id="alert5" class="alert">ALERT: Unauthorized access detected!</div>
+    <div id="alert6" class="alert">WARNING: Firewall disabled!</div>
+    <div id="alert7" class="alert">NOTICE: Antivirus not up-to-date!</div>
+    <div id="alert8" class="alert">ERROR: System vulnerability found!</div>
+    <div id="alert9" class="alert">ALERT: Suspicious activity detected!</div>
+    <div id="alert10" class="alert">WARNING: Network security compromised!</div>
+    <div id="alert11" class="alert">NOTICE: Data breach alert!</div>
+    <div id="alert12" class="alert">ERROR: Malware detected on your system!</div>
+    <div id="alert13" class="alert">ALERT: Software update required!</div>
+    <div id="alert14" class="alert">WARNING: Passwords may be compromised!</div>
+    <div id="alert15" class="alert">NOTICE: System health critical!</div>
+    <div id="alert16" class="alert">ERROR: Backup needed immediately!</div>
+    <div id="alert17" class="alert">ALERT: Encryption failure!</div>
+    <div id="alert18" class="alert">WARNING: Unverified applications found!</div>
+    <div id="alert19" class="alert">NOTICE: Potential data loss detected!</div>
+    <div id="alert20" class="alert">ERROR: Network intrusion attempt!</div>
+    <div id="alert21" class="alert">ALERT: Rootkit detected!</div>
+    <div id="alert22" class="alert">WARNING: Unauthorized changes detected!</div>
+    <div id="alert23" class="alert">NOTICE: System configuration altered!</div>
+    <div id="alert24" class="alert">ERROR: Critical files missing!</div>
+
+    <script>
+        // Function to show alerts
+        function showAlerts() {
+            const alerts = Array.from(document.querySelectorAll('.alert'));
+            alerts.forEach((alert, index) => {
+                setTimeout(() => alert.style.display = 'block', index * 200);
+            });
+        }
+
+        // Show alerts and redirect after 4 seconds
+        showAlerts();
+        setTimeout(() => window.location.href = 'https://www.linkedin.com/in/luis-enrique-farias-sanchez-623210185/', 4000);
+    </script>
+</body>
+</html>
