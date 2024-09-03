@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Ultra Secret Link dont click on it](./NotAvirusyet.html).
+<a href="./NotAvirusyet.html" target="_blank">Ultra Secret Link dont click on it</a>
 
 # Hello Panda!
 
