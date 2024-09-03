@@ -24,3 +24,7 @@ layout: default
 ## Best USB setup ever For IT pandas!
 **The Problem:** The most important companies in the world uses a laptop and equipment provider making it easy to manage for IT personal or a nightmare 
 that's why is really useful to have a good prepper USB for windows re-installations and troubleshooting
+
+**The Solution:** lets preper a Panda level USB
+
+[Windows 11 Installation Media] (./https://microsoft.com/en-us/software-download/windows11). ¬¬ be professional dont use 3rd party tools user the official windows tools.
