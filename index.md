@@ -37,7 +37,7 @@ Its a simple command that can help us bypass when windows ask us an internet con
 <pre><code class="language-html">Shift + F10 or Fn + Shift + 10</code></pre>
 Tip Panda!: take a base computer and update it completely and do a full driver installation once completed will make a drivers back up ¬¬ this has save panda numerous times, Open PowerShell and type this almost magical code, if I only knew this tip before...
 <pre><code class="language-html">Export-WindowsDriver -Online -Destination C:\NameYourFolder</code></pre>
-you should be seen a ton of messagges like thi that will make you fill like a advance panda hacker
+you should be seen a ton of messagges like this that will make you fill like a advance panda hacker
 <pre><code class="language-html">
 Driver: driversWillbeSaveasINFfiles.inf
 OriginalFileName : C:\Windows\System32\DriverStore\driversWillbeSaveasINFfiles.inf
@@ -48,6 +48,8 @@ ProviderName     : Could be anyone
 Date             : really importan information!!
 Version          : really importan information!!
 </code></pre>
+once you have your back folder its time to move it movit to your preper USB drive 
+Tip: remeber that as same as the windows default C: unit for windows system for external device will be almost aways D:
 
 
 
