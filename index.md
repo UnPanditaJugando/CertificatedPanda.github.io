@@ -27,4 +27,6 @@ that's why is really useful to have a good prepper USB for windows re-installati
 
 **The Solution:** lets preper a Panda level USB
 
-[Windows 11 Installation Media](https://microsoft.com/en-us/software-download/windows11). ¬¬ Be a professional panda don't use 3rd party tools user the official windows tools. For obvious security reasons.
+[Windows 11 Installation Media](<a href="https://microsoft.com/en-us/software-download/windows11" target="_blank">
+    Windows 11 Installation Media
+</a>). ¬¬ Be a professional panda don't use 3rd party tools user the official windows tools. For obvious security reasons.
