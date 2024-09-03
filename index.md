@@ -32,11 +32,11 @@ that's why is really useful to have a good prepper USB for windows re-installati
 
 Once the USB is ready we can start making it Special, Pandas have dificult time remembering all the commdas thats why we use a super ultra secure .TXT file to save some usefull commands
 like: 
-
 <div class="code-container">
     <button class="copy-btn" onclick="copyCode()">Copy helps pandas</button>
     <pre><code class="language-html">oobe\bypassnro</code></pre>
 </div>
+Its a simple command that can help us bypass when windows ask us an internet connection, rember ![image](https://github.com/user-attachments/assets/cf85b7cf-8ace-49ed-ab6b-1a438dbbf3d3)
 
 
 
