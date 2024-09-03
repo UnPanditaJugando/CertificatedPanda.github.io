@@ -52,5 +52,12 @@ once you have your back folder its time to move it movit to your preper USB driv
 Tip: remember that as same as the windows default C: unit for Windows system while accessing de installation unit will be assigning the D: letter 
 in the USB creat .TXT file and add the next code: 
 <pre><code class="language-html">pnpuntil /add-driver "D:\NameYourFolder\*.inf" /subdirs /install /reboot </code></pre>
-
+and save the file as backup.bat no panda is smart enough to remember all some weird names.
+that way it can be summin it really easy by typing:
+<pre><code class="language-html">
+cd.. D:
+press B and glorious tab key to complete name
+press enter
+enjoy 
+</code></pre>
 
