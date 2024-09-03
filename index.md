@@ -60,4 +60,5 @@ press B and glorious tab key to complete name
 press enter
 enjoy 
 </code></pre>
+You can always sabe other scrypts in this intallations USB, simple and powerfull tool
 
