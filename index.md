@@ -60,9 +60,6 @@ press enter
 enjoy 
 </code></pre>
 You can always save other scrypts in this intallations USB, simple and powerfull tool
-
-<h1>Smart Pagination Example</h1>
-
 <div class="pagination">
         <!-- Back Button (disabled on page 1) -->
         <a href="page1.html" class="disabled">Back</a>
