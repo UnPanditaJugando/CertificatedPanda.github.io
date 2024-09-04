@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Wallet Vault</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+            color: #00ffcc;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            color: #cccccc;
+        }
+        .vault-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            max-width: 800px;
+            background-color: #2a2a2a;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.5);
+        }
+        .vault-container img {
+            width: 100px;
+            height: auto;
+            margin: 0 20px;
+            transition: transform 0.3s ease;
+            cursor: pointer; /* Add cursor pointer for better UX */
+        }
+        .vault-container img:hover {
+            transform: scale(1.2);
+        }
+        .vault-door {
+            background-color: #333333;
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.8);
+        }
+        footer {
+            margin-top: 20px;
+            color: #cccccc;
+            font-size: 14px;
+        }
+
+        /* Pop-up styling */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ff4c4c;
+            color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+            z-index: 1000;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pandas Crypto Wallet Vault</h1>
+    <p>Your digital assets are not secured with cutting-edge technology.</p>
+
+    <div class="vault-container">
+        <div class="vault-door">
+            <img src="https://www.pngall.com/wp-content/uploads/12/Vault-Door-PNG-Clipart.png" alt="Vault Door">
+        </div>
+        <img src="https://www.pngall.com/wp-content/uploads/10/Bitcoin-Crypto-PNG-Image-HD.png" alt="Bitcoin" onclick="showValueAlert()">
+        <img src="https://www.pngall.com/wp-content/uploads/8/Ethereum-Logo-PNG-HD.png" alt="Ethereum" onclick="showValueAlert()">
+        <img src="https://www.pngall.com/wp-content/uploads/9/Litecoin-Cryptocurrency-Transparent.png" alt="Litecoin" onclick="showValueAlert()">
+    </div>
+
+    <footer>&copy; 2024 Pandas Crypto Vault. All rights reserved.This is not secure at all</footer>
+
+    <!-- Pop-up Div -->
+    <div class="popup" id="popup">
+        Panda is broke!
+    </div>
+
+    <script>
+        // Function to show the pop-up after 10 seconds
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        // Trigger the pop-up after 10 seconds
+        setTimeout(showPopup, 10000);
+
+        // Function to show the value alert
+        function showValueAlert() {
+            alert('0');
+        }
+    </script>
+
+</body>
+</html>
