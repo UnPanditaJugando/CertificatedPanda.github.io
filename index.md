@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div data-note="Panda is working on a super secret project to store his crypto keys, "></div>
 <a href="./NotAvirusyet.html" target="_blank">Ultra Secret Link dont click on it</a>
 
 # Hello Panda!
@@ -20,11 +20,9 @@ layout: default
 ⠛⠛⠛⠛⠛⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛
 ⠀⠀⠀⠀⠀⠀⠘⠛⠻⢿⣿⣿⣿⣿⣿⠟⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
----
-title: My Document
-date: 2024-09-04
-# This is a hidden note within the frontmatter
----
+
+**The Problem:** panda is getting difult stuff to do, Windows installations is getting dicult,Drivers, upload to UEM thes just too many things to do!!!
+
 
 **The Solution:** lets preper a Panda level USB
 
