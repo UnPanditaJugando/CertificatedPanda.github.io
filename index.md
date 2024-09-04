@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div data-note="Panda is working on a super secret project to store his crypto keys,panda Ultra Secret Pace to sabe Critop Keys.html "></div>
+<div data-note="Panda is working on a super secret project to store his crypto keys,html/panda Ultra Secret Pace to sabe Critop Keys.html "></div>
 <a href="./html/NotAvirusyet.html" target="_blank">Ultra Secret Link dont click on it</a>
 
 # Hello Panda!
