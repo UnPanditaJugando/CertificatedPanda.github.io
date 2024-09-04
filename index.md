@@ -61,3 +61,104 @@ enjoy
 </code></pre>
 You can always save other scrypts in this intallations USB, simple and powerfull tool
 
+
+  h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+  .pagination {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+  .pagination a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+  .pagination a:hover {
+            background-color: #0056b3;
+        }
+
+  .pagination a.active {
+            background-color: #28a745;
+        }
+
+   .pagination a.disabled {
+            background-color: #ccc;
+            pointer-events: none;
+            cursor: default;
+        }
+
+   #more {
+            display: none; /* Initially hide the additional pages */
+        }
+
+   .more-btn {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+  .more-btn:hover {
+            background-color: #5a6268;
+        }
+
+   footer {
+            position: absolute;
+            bottom: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Smart Pagination Example</h1>
+
+<div class="pagination">
+        <!-- Back Button (disabled on page 1) -->
+        <a href="page1.html" class="disabled">Back</a>
+  <!-- Page numbers -->
+        <a href="page1.html" class="active">1</a>
+        <a href="page2.html">2</a>
+        <a href="page3.html">3</a>
+        <a href="page4.html">4</a>
+        <a href="page5.html">5</a>
+        <a href="page6.html">6</a>
+ <!-- Hidden pages (visible when "More" is clicked) -->
+        <div id="more">
+            <a href="page7.html">7</a>
+            <a href="page8.html">8</a>
+            <a href="page9.html">9</a>
+            <a href="page10.html">10</a>
+        </div>
+<!-- More button -->
+        <button class="more-btn" onclick="showMore()">More</button>
+ <!-- Next Button -->
+        <a href="page2.html" id="next">Next</a>
+    </div>
+ <footer>&copy; 2024 Smart Pagination Example</footer>
+
+  <script>
+        // Function to show hidden pages when "More" is clicked
+        function showMore() {
+            var morePages = document.getElementById('more');
+            morePages.style.display = 'inline-block';  // Show the hidden pages
+        }
+    </script>
+
+</body>
+</html>
+
