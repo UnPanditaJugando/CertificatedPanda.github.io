@@ -61,70 +61,6 @@ enjoy
 </code></pre>
 You can always save other scrypts in this intallations USB, simple and powerfull tool
 
-
-  h1 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-  .pagination {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-
-  .pagination a {
-            text-decoration: none;
-            color: white;
-            background-color: #007bff;
-            padding: 10px 15px;
-            margin: 0 5px;
-            border-radius: 5px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
-        }
-
-  .pagination a:hover {
-            background-color: #0056b3;
-        }
-
-  .pagination a.active {
-            background-color: #28a745;
-        }
-
-   .pagination a.disabled {
-            background-color: #ccc;
-            pointer-events: none;
-            cursor: default;
-        }
-
-   #more {
-            display: none; /* Initially hide the additional pages */
-        }
-
-   .more-btn {
-            background-color: #6c757d;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-        }
-
-  .more-btn:hover {
-            background-color: #5a6268;
-        }
-
-   footer {
-            position: absolute;
-            bottom: 10px;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-
 <h1>Smart Pagination Example</h1>
 
 <div class="pagination">
@@ -152,7 +88,7 @@ You can always save other scrypts in this intallations USB, simple and powerfull
  <footer>&copy; 2024 Smart Pagination Example</footer>
 
   <script>
-        // Function to show hidden pages when "More" is clicked
+    // Function to show hidden pages when "More" is clicked
         function showMore() {
             var morePages = document.getElementById('more');
             morePages.style.display = 'inline-block';  // Show the hidden pages
